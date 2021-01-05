@@ -1,0 +1,94 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+			//Preview
+			{
+				"caption": "Preview",
+				"id": "side-bar-files-open-with-skim",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Preview.app", // OSX
+									"extensions":".png|.jpg",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//Skim
+			{
+				"caption": "Skim",
+				"id": "side-bar-files-open-with-skim",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Skim.app", // OSX
+									"extensions":".pdf",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//Safari
+			{
+				"caption": "Safari",
+				"id": "side-bar-files-open-with-skim",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Safari.app", // OSX
+									"extensions":".html",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			{
+				"caption": "Arduino",
+				"id": "side-bar-files-open-with-skim",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Arduino.app", // OSX
+									"extensions":".ino",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//Okular
+			{
+				"caption": "Okular",
+				"id": "side-bar-files-open-with-okular",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "okular", // OSX
+									"extensions":".pdf",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			//Evince
+			{
+				"caption": "Evince",
+				"id": "side-bar-files-open-with-okular",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "evince", // OSX
+									"extensions":".pdf",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+		]
+	}
+]

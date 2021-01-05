@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ayu",
+		"Color Highlight",
+		"Conda",
+		"Diffy",
+		"FileIcons",
+		"Fortran",
+		"Git",
+		"GitGutter",
+		"LaTeX Word Count",
+		"LaTeXing",
+		"LaTeXTab",
+		"LaTeXTools",
+		"Make File Executable",
+		"Markdown Extended",
+		"Non Text Files",
+		"Package Control",
+		"PackageResourceViewer",
+		"PlatformSettings",
+		"SideBarEnhancements",
+		"SwitchDictionary",
+		"Tcsh and Csh Mode",
+		"Terminal",
+		"Theme - Gravity",
+		"WakaTime"
+	]
+}

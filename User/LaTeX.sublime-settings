@@ -1,0 +1,37 @@
+// These settings override both User and Default settings for the LaTeX syntax
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
+	"spell_check": true,
+	"color_scheme": "Packages/User/Ayu LaTeX.tmTheme",
+	// "color_scheme": "Packages/Material Monokai/MaterialMonokaiLight.tmTheme",
+
+
+	"osx":
+	{
+		"font_face": "Calibri",
+		// "font_face": "Roboto",
+	    "font_size": 16.0
+	},
+	"linux":
+	{
+		"font_face": "Roboto",
+	    "font_size": 12.0
+	},
+
+	"show_minimap": true,
+	"word_wrap": true,
+	"user": {
+		"highlight": false,
+		
+	}
+}

@@ -1,0 +1,5 @@
+{
+  "show_log_panel_on": ["errors", "warnings"],
+  "output_directory": true,
+  "output_directory_mode": 1,
+}

@@ -1,0 +1,54 @@
+{
+	"auto_show_diagnostics_panel": "never",
+	"auto_show_diagnostics_panel_level": 0,
+	"log_debug": true,
+	"clients":
+	{
+		"pyls":
+		{
+			"command":
+			[
+				"/usr/local/bin/pyls"
+			],
+			"enabled": true,
+			"languageId": "python",
+			"scopes":
+			[
+				"source.python"
+			],
+			"settings":
+			{
+				"pyls":
+				{
+					"configurationSources":
+					[
+						"flake8"
+					],
+					"plugins":
+					{
+						"jedi_definition":
+						{
+							"follow_imports": true
+						},
+						"pycodestyle":
+						{
+							"enabled": true,
+							"ignore":
+							[
+								"E501",
+								"E302"
+							]
+						}
+					}
+				}
+			},
+			"syntaxes":
+			[
+				"Packages/Python/Python.sublime-syntax",
+				"Packages/MagicPython/grammars/MagicPython.tmLanguage",
+				"Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+			]
+		}
+	},
+	"log_debug": true
+}
